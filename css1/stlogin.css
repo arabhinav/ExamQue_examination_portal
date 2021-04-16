@@ -1,0 +1,112 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+body {
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+    font: 16px/2em Lato, serif;
+	margin: 100px auto;
+	max-width: 400px;
+}
+
+form[role=login] {
+	color: #5d5d5d;
+	background: #f2f2f2;
+	padding: 26px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+	form[role=login] img {
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+	form[role=login] input,
+	form[role=login] button {
+		font-size: 18px;
+		margin: 16px 0;
+	}
+	form[role=login] > div {
+		text-align: center;
+	}
+	
+.form-links {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 50px;
+}
+	.form-links a {
+		color: #fff;
+	}
+
+.logo {
+    border-radius: 50%;
+}
+
+.login-welcome {
+    color: #424642;
+    text-align: center;
+}
+
+.home-main{
+    background: #ffb037;
+    color:#fff;
+    padding: 13%;
+    text-align: center;
+}
+.blinker{
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.home-main button{
+    background: #fff;
+    color: #424642;
+    border-radius: 0;
+    font-weight: 700;
+    width: 16%;
+    height: 50px;
+    top: 4%;
+    margin-top: 3%;
+}
+.home-main button:hover{
+    transition: 1s ease;
+    color:#424642;
+    width: 19%;
+}
+.content1-left{
+    padding:9%;
+}
+.content1-right{
+    padding:9%;
+    background:#e4e4e4;
+}
+.home-content2{
+    background: #adb5bd;
+    padding: 1.4%;
+    text-align: center;	
+}
+.home-content2 p{
+    font-size: 18px;
+    line-height: 50px;
+}
+.home-content2 p span{
+    font-weight: 500;
+}
+.temp {
+    color:black;
+}
