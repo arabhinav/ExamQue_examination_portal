@@ -1,5 +1,5 @@
 # ExamQue 
-Front-end: HTML, CSS & JavaScript
+Front-end: HTML, CSS & JavaScript\
 Back-end: PHP, Ajax, MySql.
 
 An online examination portal designed for Delhi Technological University to host online examinations during the Covid-19 pandemeic.
